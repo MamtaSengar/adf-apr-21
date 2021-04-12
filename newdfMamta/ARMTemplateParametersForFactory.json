@@ -5,11 +5,20 @@
 		"factoryName": {
 			"value": "newdfMamta"
 		},
+		"FileServer1_password": {
+			"value": ""
+		},
 		"lsSQL_connectionString": {
 			"value": ""
 		},
 		"lsStorage_connectionString": {
 			"value": ""
+		},
+		"FileServer1_properties_typeProperties_host": {
+			"value": "c:\\ir"
+		},
+		"FileServer1_properties_typeProperties_userId": {
+			"value": "mamtasengar92"
 		}
 	}
 }

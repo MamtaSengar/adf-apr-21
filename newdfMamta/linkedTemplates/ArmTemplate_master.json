@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "newdfMamta"
 		},
+		"FileServer1_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'FileServer1'"
+		},
 		"lsSQL_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'lsSQL'"
@@ -14,6 +18,14 @@
 		"lsStorage_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'lsStorage'"
+		},
+		"FileServer1_properties_typeProperties_host": {
+			"type": "string",
+			"defaultValue": "c:\\ir"
+		},
+		"FileServer1_properties_typeProperties_userId": {
+			"type": "string",
+			"defaultValue": "mamtasengar92"
 		},
 		"containerUri": {
 			"type": "string",
@@ -47,6 +59,15 @@
 					},
 					"lsStorage_connectionString": {
 						"value": "[parameters('lsStorage_connectionString')]"
+					},
+					"FileServer1_password": {
+						"value": "[parameters('FileServer1_password')]"
+					},
+					"FileServer1_properties_typeProperties_host": {
+						"value": "[parameters('FileServer1_properties_typeProperties_host')]"
+					},
+					"FileServer1_properties_typeProperties_userId": {
+						"value": "[parameters('FileServer1_properties_typeProperties_userId')]"
 					}
 				}
 			},
